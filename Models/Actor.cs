@@ -8,4 +8,5 @@ public class Actor {
     public string? ProfilePicUrl { get; set; }
     public string? FullName { get; set; }
     public string? Biography { get; set; }
+    public List<Actor_Movie>? Actor_Movie { get; set; }
 }
